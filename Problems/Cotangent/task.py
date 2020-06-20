@@ -1,0 +1,4 @@
+import math
+angle = int(input())
+contangent = round(math.cos(math.radians(angle)) / math.sin(math.radians(angle)), 10)
+print(contangent)
